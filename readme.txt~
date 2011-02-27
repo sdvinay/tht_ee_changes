@@ -1,0 +1,15 @@
+This directory contains all of our modifications and customizations to
+the Expression Engine code.  Under this main EE_changes directory is a
+directory for each version of EE that we've installed.  In each of
+those directories are our modified versions of files from those
+versions.  Each modification should be thoroughly commented, so that
+at any time we can easily (a) find changes, (b) know exactly what was
+changed, and (c) know exactly why we made a change.
+
+To upgrade to a new version of EE:
+-- Upload the new EE code to our account
+-- Create a new directory under EE_changes for the new version
+-- For each file in the current version of EE_changes, propagate the
+changes forward into the new EE_changes directory
+-- Install/upgrade EE, following the EE upgrade instructions
+-- Copy the latest EE_changes files to their proper locations.
